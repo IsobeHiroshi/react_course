@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 
-// Context object : A JS object which contains a React components
+// Context object: A JS object which contains a React components
 const FavoritesContext = createContext({
   favorites: [],
   totalFavorites: 0,
